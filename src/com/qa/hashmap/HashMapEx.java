@@ -49,7 +49,7 @@ public class HashMapEx {
 		for (Integer value : nameAndAge.values()) {
 			System.out.println(value);
 		}
-		
+		// For Looping through with both key and value
 		for (Entry<String, Integer> keyValue : nameAndAge.entrySet()) {
 			System.out.println(keyValue);
 		}
